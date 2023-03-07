@@ -1,3 +1,18 @@
+# 中国财务报表：
+
+https://apps.odoo.com/apps/modules/13.0/hsp_odoo_chinese_account_report/
+
+# 官方财务报表：
+
+https://apps.odoo.com/apps/modules/15.0/om_account_accountant/
+ 
+# 知乎 【活用Odoo15 】6. 会计与财务（报表）
+
+https://zhuanlan.zhihu.com/p/455348950 另外，为了设置符合中国会计制度和习惯的科目表，最好再安装一个“中国企业会计科目表”。你可以在以下地址下载并安装：
+
+需要注意的是，以上第三方提供的中国会计科目表，需要在一个干净的环境下安装。如果Odoo系统中已经存在业务数据，并由这些数据产生了会计事项的记录，将无法更新会计科目表。因此，为了学习会计模块，我们新建了一个数据库accounting-dev，在这个数据库创建时，不加载演示数据。
+
+
 #  accountcore中国会计的最佳实践
 AccountCoreForOdoo,in China
 基于odoo社区版的一独立的中国会计模块。
